@@ -9,15 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".Confirm_Order"
+        <activity
+            android:name=".My_Cart"
+         android:parentActivityName=".Display_Item"  />
+        <activity
+            android:name=".Display_Item"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Confirm_Order"
             android:label="Confirm Order">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".Prescri_Delivery"

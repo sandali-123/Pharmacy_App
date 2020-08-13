@@ -35,4 +35,32 @@
     <string name="pn_PNO">Phone Number</string>
     <string name="pa_addr">Address</string>
     <string name="pa_city">City</string>
+    <string name="appname">MediCare</string>
+    <string name="mediCare">MediCare</string>
+    <string name="uploadpresbtn">UPLOAD PRESCRIPTION</string>
+    <string name="cartbutton">See my cart</string>
+    <string name="ascorilbtn">Ascoril 100ml LKR 180.00</string>
+    <string name="bandbtn">Band-Aid 1 packet LKR 100.00</string>
+    <string name="cetrizinebtn">Cetrizine-Hydrochloride 60ml LKR 240.00</string>
+    <string name="biobtn">BIO-OIL 60ml LKR 1550.00</string>
+    <string name="cancelbtn">Cancel</string>
+    <string name="search">search product</string>
+    <string name="addtocartbtn">ADD TO CART</string>
+    <string name="product_description">Prevent infections and keep the wound clean</string>
+    <string name="product_price"> 1 packet LKR 280.00</string>
+    <string name="product_name">Band-Aid</string>
+    <string name="minbtn">-</string>
+    <string name="plusbtn">+</string>
+    <string name="numtxt">1</string>
+    <string name="orderbtn">ORDER</string>
+    <string name="order1">Band-Aid 1 packet LKR 280.00</string>
+    <string name="order2">Bio-Oil 60ml LKR 1550.00</string>
+    <string name="order3">Iodex balm 9g LKR 300.00</string>
+    <string name="mycart">My Cart</string>
+    <string name="changebtn1">- 1 +</string>
+    <string name="changebtn2">- 1 +</string>
+    <string name="changebtn3">- 2 +</string>
+    <string name="bt">aaa</string>
+
+
 </resources>
