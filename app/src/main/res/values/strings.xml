@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MediCare</string>
+    <string name="admin">Admin panel</string>
+    <string name="addItems">Add Items</string>
+    <string name="manageItems">Manage Items</string>
+    <string name="newOrders">New Orders</string>
+    <string name="Pres">Prescriptions</string>
+    <string name="cat">Categories</string>
+    <string name="ItemName">Product Name</string>
+    <string name="itemDes">Product Description</string>
+    <string name="itemPrice">Product Price</string>
+    <string name="delOrder">Delete Order</string>
+    <string name="orderIt">Show Order Items</string>
+    <string name="lgOut">Log Out</string>
+    <string name="CusNme">Name : Sam Perera</string>
+    <string name="Applychan">APPLY CHANGES</string>
+    <string name="delproduct">DELETE PRODUCT</string>
+
+
+</resources>
