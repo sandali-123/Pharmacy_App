@@ -19,8 +19,8 @@ public class Delivery extends AppCompatActivity {
         setContentView(R.layout.activity_delivery);
 
         //Add back button
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true); //back button
+       // getSupportActionBar().setDisplayShowHomeEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true); //back button
 
 
         btn_DelConfirm = (Button) findViewById(R.id.btn_confirmDel);

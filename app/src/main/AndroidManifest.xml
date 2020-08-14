@@ -11,49 +11,25 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".My_Cart"
-         android:parentActivityName=".Display_Item"  />
+         android:parentActivityName=".MainActivity"  />
         <activity
             android:name=".Display_Item"
             android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".Confirm_Order"
-            android:label="Confirm Order">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+      <!--  <activity
+            android:name=".My_Cart"
+          android:parentActivityName=".Display_Item"/>-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".Prescri_Delivery"
-            android:label="Delivery">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".Delivery"
-            android:label="Delivery">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".Checkout"
-            android:label="Checkout">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+           android:parentActivityName=".My_Cart"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
-            android:name=".MainActivity"
-            android:label="Medicare">
+            android:name=".Delivery"
+            android:parentActivityName=".Checkout"/>
+
+        <activity
+            android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -61,9 +37,9 @@
             </intent-filter>
         </activity>
 
-        <meta-data
+       <!-- <meta-data
             android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
+            android:resource="@array/preloaded_fonts" />-->
     </application>
 
 </manifest>

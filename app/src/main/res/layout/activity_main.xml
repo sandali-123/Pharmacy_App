@@ -104,7 +104,6 @@
         android:layout_width="245dp"
         android:layout_height="67dp"
         android:background="@color/colorAccent"
-        android:onClick="Button"
         android:text="@string/bandbtn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -164,8 +163,9 @@
 
     <ImageButton
         android:id="@+id/cartbtn"
-        android:layout_width="40dp"
-        android:layout_height="37dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/bandbtn"
         app:layout_constraintHorizontal_bias="0.878"

@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class My_Cart extends AppCompatActivity {
 
-    public Button editbtn1, editbtn2,editbtn3;
+    public Button editbtn1, editbtn2,editbtn3, order;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +20,14 @@ public class My_Cart extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(My_Cart.this,Display_Item.class);
+                startActivity(i);
+            }
+        });
+        order = (Button) findViewById(R.id.orderbtn);
+        order.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent (My_Cart.this,Checkout.class);
                 startActivity(i);
             }
         });

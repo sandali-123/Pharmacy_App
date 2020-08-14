@@ -19,8 +19,8 @@ public class Checkout extends AppCompatActivity {
         setContentView(R.layout.activity_checkout);
 
         //Add back button
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true); //back button
+       //getSupportActionBar().setDisplayShowHomeEnabled(true);
+       // getSupportActionBar().setDisplayHomeAsUpEnabled(true); //back button
 
 
 
