@@ -26,7 +26,7 @@ public class Confirm_Order extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); // back button
 
-
+        //go to delivery page,if want to change details
         btn_ChangeDel = (Button) findViewById(R.id.btn_chnge);
         btn_ChangeDel.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,7 +35,7 @@ public class Confirm_Order extends AppCompatActivity {
                 openDeliChangeDetails();
             }
         });
-
+        //go to delivery page,if want to remove details
         btn_RemoveDel = (Button) findViewById(R.id.btn_remove);
         btn_RemoveDel.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,7 +45,7 @@ public class Confirm_Order extends AppCompatActivity {
             }
         });
 
-
+        //Alert
         Btn_dialog = findViewById(R.id.btn_confirm_alert);
         Btn_dialog.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,6 +72,7 @@ public class Confirm_Order extends AppCompatActivity {
         });
 
     }
+    //go to delivery page,if want to change details
     public void openDeliChangeDetails(){
 
         Intent intent = new Intent(this,Delivery.class);
@@ -79,6 +80,7 @@ public class Confirm_Order extends AppCompatActivity {
 
 
     }
+    //go to delivery page,if want to remove details
     public void openDeliRemoveDetails(){
 
         Intent intent = new Intent(this,Delivery.class);

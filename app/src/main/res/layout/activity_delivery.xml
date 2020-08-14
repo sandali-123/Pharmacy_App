@@ -23,7 +23,7 @@
         app:srcCompat="@drawable/whitep" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/tv_plz"
         android:layout_width="364dp"
         android:layout_height="40dp"
         android:fontFamily="@font/bree_serif"
@@ -72,11 +72,11 @@
         app:layout_constraintVertical_bias="0.617" />
 
     <EditText
-        android:id="@+id/name2"
+        android:id="@+id/pa_Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/tv_name"
+        android:hint="@string/name"
         android:inputType="textPostalAddress"
         android:textColor="#000000"
         android:textColorHint="#000000"

@@ -19,8 +19,8 @@
             </intent-filter>
 
         </activity>
-        <activity
-            android:name=".Prescri_Delivery"
+
+        <activity android:name=".Prescri_Delivery"
             android:label="Delivery">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
