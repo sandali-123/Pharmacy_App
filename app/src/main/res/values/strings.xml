@@ -35,4 +35,24 @@
     <string name="pn_PNO">Phone Number</string>
     <string name="pa_addr">Address</string>
     <string name="pa_city">City</string>
+
+    <string name="Name">MediCare</string>
+    <string name="i_m_an_admin">I\'m an Admin</string>
+    <string name="i_m_not_an_admin">I\'m not an admin</string>
+    <string name="login_btn">LogIn</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="remember_me_chkBox">Remember me</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="hve_acc_log_in">Already have an Account?Log in</string>
+    <string name="join_now">Join Now</string>
+    <string name="Register_btn">Register now</string>
+    <string name="User_name">Name</string>
+    <string name="close_btn">Close</string>
+    <string name="update_btn">Update</string>
+    <string name="profile_img_change_btn"> Change profile Picture</string>
+    <string name="feedback_title">Give us feedback</string>
+    <string name="feedback_user">Your feedback about our app</string>
+    <string name="feedback_submit">Submit</string>
+    <string name="feedback_form">Feedback form</string>
 </resources>
