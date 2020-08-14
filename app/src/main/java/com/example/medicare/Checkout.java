@@ -23,7 +23,7 @@ public class Checkout extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); //back button
 
 
-
+        //go to delivery page
         btn_CheckDel = (Button) findViewById(R.id.btn_continue);
         btn_CheckDel.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +40,7 @@ public class Checkout extends AppCompatActivity {
 
 
     }
+
     //back button
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
