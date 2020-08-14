@@ -2,10 +2,13 @@ package com.example.medicare;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class My_Cart extends AppCompatActivity {
 
@@ -31,6 +34,26 @@ public class My_Cart extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+    }
+    public void showAlertDialog(View v){
+
+        AlertDialog.Builder alert = new AlertDialog.Builder(this);
+        alert.setTitle("MediCare");
+        alert.setMessage("Do you want to remove this item?");
+        alert.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Toast.makeText(My_Cart.this,"your item is removed",Toast.LENGTH_SHORT).show();
+            }
+        });
+        alert.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Toast.makeText(My_Cart.this,"your item is still in the cart",Toast.LENGTH_SHORT).show();
+            }
+        });
+        alert.create().show();
 
     }
 }
