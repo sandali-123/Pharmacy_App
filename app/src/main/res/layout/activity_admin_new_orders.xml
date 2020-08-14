@@ -5,7 +5,6 @@
     android:background="@color/colorAccent2">
 
 
-
     <RelativeLayout
         android:id="@+id/txtViewShowAlert"
         android:layout_width="match_parent"
@@ -15,7 +14,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:background="@drawable/buttons"
-        android:clickable="true"
+        android:clickable="false"
         android:onClick="show_alert"
         android:padding="10dp">
 
