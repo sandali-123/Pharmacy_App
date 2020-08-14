@@ -6,74 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FeedBackActivity"
-    android:background="@drawable/back">
-
-    <TextView
-        android:id="@+id/feedback_title"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="39dp"
-        android:layout_marginTop="78dp"
-        android:layout_marginEnd="45dp"
-        android:layout_marginBottom="714dp"
-        android:text="@string/feedback_title"
-        android:textAlignment="center"
-        android:textColor="#033932"
-        android:textSize="40sp"
-        android:textStyle="bold" />
-
-    <EditText
-        android:id="@+id/feedback_name_Input"
-        android:layout_width="539dp"
-        android:layout_height="109dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="26dp"
-        android:layout_marginTop="249dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="530dp"
-        android:background="@drawable/input_design"
-        android:backgroundTint="#C1EEF0F1"
-        android:hint="@string/name"
-        android:padding="20dp"
-        android:textColor="@android:color/black"
-        android:textColorHint="#504D4D"
-        android:textSize="17sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
-        android:id="@+id/feedback_Input"
-        android:layout_width="wrap_content"
-        android:layout_height="272dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="374dp"
-        android:layout_marginEnd="39dp"
-        android:layout_marginBottom="243dp"
-        android:background="@drawable/input_design"
-        android:backgroundTint="#C1EEF0F1"
-        android:hint="@string/feedback_user"
-        android:padding="20dp"
-        android:textAlignment="textStart"
-        android:textColor="@android:color/black"
-        android:textColorHint="#504D4D"
-        android:textSize="17sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+    android:background="@drawable/back3">
 
 
     <!--    <androidx.appcompat.widget.Toolbar-->
@@ -87,51 +20,92 @@
 
 <!--    </androidx.appcompat.widget.Toolbar>-->
 
-    <Button
-        android:id="@+id/feedback_button"
+
+    <TextView
+        android:id="@+id/feedback_title"
         android:layout_width="wrap_content"
-        android:layout_height="74dp"
+        android:layout_height="139dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="515dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginBottom="144dp"
-        android:background="@drawable/input_design"
-        android:backgroundTint="#9A099EB1"
-        android:padding="20dp"
-        android:text="@string/feedback_submit"
-        android:textAllCaps="false"
-        android:textColor="@android:color/black"
-        android:textSize="30sp"
-
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="74dp"
-        android:layout_height="41dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="334dp"
-        android:layout_marginBottom="613dp"
-        android:src="@drawable/home" />
-
-    <TextView
-        android:id="@+id/textView37"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="74dp"
-        android:layout_marginEnd="57dp"
-        android:layout_marginBottom="615dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="507dp"
         android:text="@string/feedback_form"
         android:textAlignment="center"
-        android:textColor="@android:color/primary_text_dark"
-        android:textSize="25dp" />
+        android:textColor="@android:color/primary_text_light_nodisable"
+        android:textSize="25dp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/feedback_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="398dp"
+        android:background="@drawable/input_design"
+
+        android:hint="@string/name"
+        android:inputType="number"
+        android:padding="20dp"
+        android:textColor="#111112"
+        android:textColorHint="#121212"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/feedback_input"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="141dp"
+        android:background="@drawable/input_design"
+
+        android:hint="@string/feedback_user"
+        android:inputType="number"
+        android:padding="20dp"
+        android:textColor="#111112"
+        android:textColorHint="#121212"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/feedback_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout_1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="43dp"
+        android:background="#FF099EB1"
+        android:padding="17dp"
+        android:text="@string/feedback_submit"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="114dp"
+        android:layout_height="56dp"
+        app:srcCompat="@drawable/home" />
+    <!--    android:layout_below="@+id/login_applogo"-->
 </RelativeLayout>

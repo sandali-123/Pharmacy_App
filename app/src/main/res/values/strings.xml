@@ -55,4 +55,22 @@
     <string name="feedback_user">Your feedback about our app</string>
     <string name="feedback_submit">Submit</string>
     <string name="feedback_form">Feedback form</string>
+    <string name="reset_pswd">Reset password </string>
+    <string name="new_pwd">Type the new password</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="user_name">user name</string>
+    <string name="my_cart">My Cart</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_logout">Logout</string>
 </resources>
